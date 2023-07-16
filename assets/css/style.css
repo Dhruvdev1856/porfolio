@@ -313,3 +313,26 @@ P {
 }
 
 /* service ends */
+
+/* portfolio start */
+
+.portfolio_wrapper .nav-link {
+    font-size: 0.9375rem;
+    font-weight: 500;
+    margin-right: 0.25rem;
+    color: var(--text-black);
+    text-transform: uppercase;
+}
+
+.portfolio_wrapper .nav-link.active {
+    color: var(--secondary-text);
+    background-color: transparent;
+}
+
+.portfolio_wrapper .portfolio-img {
+    position: relative;
+    cursor: pointer;
+}
+
+
+/* portfolio ends */
