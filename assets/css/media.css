@@ -56,6 +56,16 @@
         font-size: 1.5625rem;
         line-height: 2.1875rem;
     }
+
+    /* about */
+    .client-info>div {
+        justify-content: center;
+    }
+
+    .about_wrapper .client-info:before {
+        top: 0.25rem;
+        left: 2.8125rem;
+    }
 }
 
 @media (max-width: 390px) {
